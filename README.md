@@ -30,6 +30,17 @@ Data is fetched from the **Our World in Data (OWID)** COVID-19 dataset and expor
 2. Filter for 15 selected countries  
 3. Clean and handle missing values  
 4. Format date range (2022–2024)  
-5. Export results to CSV  
+5. Export results to CSV
 
+---
 
+## 📁 Files
+- `covid_data_collecto.py` – the collection and cleaning script
+- `covid_2022_2024_15countries.csv` – the final dataset
+- `COVID19_Data_Collection_Report.pdf` – short report with the method and results
+
+## ▶️ How to Run
+```bash
+pip install pandas requests
+python covid_data_collecto.py
+```
